@@ -212,7 +212,7 @@ def salir():
 
 # DICCIONARIO de opciones: tecla -> (texto del menú, función)
 OPCIONES = {
-    "1": ("Crear cliente", opcion_crear),
+    "1": ("Crear estudiante", opcion_crear),
     "2": ("Ver todos", opcion_ver_todos),
     "3": ("Buscar", opcion_buscar),
     "4": ("Ver por id", opcion_ver_por_id),
@@ -227,7 +227,7 @@ OPCIONES = {
 
 
 def mostrar_menu():
-    imprimir_titulo("SISTEMA DE GESTIÓN DE CLIENTES")
+    imprimir_titulo("SISTEMA DE GESTIÓN DE ESTUDIANTES")
     for tecla, (texto, _funcion) in OPCIONES.items():
         print(f"  {tecla}. {texto}")
     print()

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos",
+    "apellido": "Moran",
+    "email": "cm@gmail.com",
+    "carnet": "EST001",
+    "notas": {},
+    "materias": []
+  }
+]
